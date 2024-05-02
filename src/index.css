@@ -1,4 +1,9 @@
-body, html {
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body,
+html {
   margin: 0;
   padding: 0;
 }
