@@ -1,4 +1,4 @@
-import './App.css'
+import "./App.css";
 // import usePokemonList from './hooks/usePokemonList'
 // import usePokemonDetails from './hooks/usePokemonDetail'
 
@@ -15,7 +15,7 @@ function App() {
       {/* 1. Home path: "/" */}
       {/* 1. Details path: "/details:" */}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

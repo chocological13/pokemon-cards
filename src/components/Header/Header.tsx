@@ -9,7 +9,9 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ searchBar }) => {
   return (
     <div className="">
-      <img className="p-1" src={HeaderPic} alt="" />
+      <a href="/">
+        <img className="p-1" src={HeaderPic} alt="" />
+      </a>
       {searchBar ? <SearchBar /> : null}
     </div>
   );
